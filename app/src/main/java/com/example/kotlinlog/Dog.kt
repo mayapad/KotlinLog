@@ -13,7 +13,7 @@ open class Dog: Animal {
     }
 
 //    Movableインターフェースのメソッドをオーバーライド
-    override fun move() {
-    Log.d("kotlintest",this.name + "(" + this.age + "歳)" +"は全力で走った。")
+    fun move() {
+        Log.d("kotlintest",this.name + "(" + this.age + "歳)" +"は全力で走った。")
     }
 }
